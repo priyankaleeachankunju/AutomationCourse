@@ -19,7 +19,7 @@ public WebDriver driver;
     @AfterMethod
 	public void driverClose() {
 		//driver.close();
-		  driver.quit();
+		  //driver.quit();
 	}
 	
 

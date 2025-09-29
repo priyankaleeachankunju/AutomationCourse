@@ -19,13 +19,13 @@ public class LoginPage {
 	@FindBy(id="login-button")WebElement loginBtn;
 	
 	
-	public void enterUserNameOnUserNameField() {
-		username.sendKeys("standard_user");
+	public void enterUserNameOnUserNameField(String userNameValue) {
+		username.sendKeys(userNameValue);
 
 	}
 	
-	public void enterPasswordOnPasswordField() {
-		password.sendKeys("secret_sauce");
+	public void enterPasswordOnPasswordField(String passwordValue) {
+		password.sendKeys(passwordValue);
 	}
 	
 	public void loginButtonClick() {
