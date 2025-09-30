@@ -21,7 +21,6 @@ public class LoginPage {
 	
 	public void enterUserNameOnUserNameField(String userNameValue) {
 		username.sendKeys(userNameValue);
-
 	}
 	
 	public void enterPasswordOnPasswordField(String passwordValue) {
